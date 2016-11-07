@@ -1,9 +1,9 @@
 import win32com.client
 import time
 import pythoncom
-from xyng import xacom
-from xyng.logger import Logger
-from xyng.query import Requester
+from xing import xacom
+from xing.logger import Logger
+from xing.query import Query
 log = Logger(__name__)
 
 
@@ -109,5 +109,5 @@ class Session:
 
             session.heartbeat()
         """
-        result = Requester("서버시간조회").send(id="")
+        result = Query("서버시간조회").send()
         print(result)
