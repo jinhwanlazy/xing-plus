@@ -94,12 +94,12 @@ reals = {k: v for k, v in _tr_raw.items() if v['type'] == "Real"}
 
 def list_queries():
     for n, key in enumerate(queries.keys()):
-        print(n, key, _trcode2name[key])
+        print(n, key, trcode2name[key])
 
 
 def list_reals():
     for n, key in enumerate(reals.keys()):
-        print(n, key, _trcode2name[key])
+        print(n, key, trcode2name[key])
 
 
 def _blank(type_):
