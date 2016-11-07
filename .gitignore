@@ -60,4 +60,5 @@ target/
 .idea/
 
 *.swp
-
+*.*~
+*.ipynb
