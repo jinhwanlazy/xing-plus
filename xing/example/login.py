@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 from xing.xasession import Session
 from xing.query import Query
 from getpass import getpass
